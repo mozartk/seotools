@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Artesaos\SEOTools\Contracts\TwitterCards addImage(string|array $image)
  * @method static \Artesaos\SEOTools\Contracts\TwitterCards setImages(string|array $images)
  * @method static \Artesaos\SEOTools\Contracts\TwitterCards setImage(string|array $images)
+ * @method static void reset()
  */
 class TwitterCard extends Facade
 {

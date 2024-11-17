@@ -260,4 +260,14 @@ class JsonLd implements JsonLdContract
 
         return $this;
     }
+
+    public function reset()
+    {
+        $this->values = [];
+        $this->type = '';
+        $this->title = '';
+        $this->description = '';
+        $this->url = false;
+        $this->images = [];
+    }
 }

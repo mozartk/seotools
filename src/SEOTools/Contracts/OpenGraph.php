@@ -275,4 +275,11 @@ interface OpenGraph
      * @return static
      */
     public function addAudio($source = null, $attributes = []);
+
+    /**
+     * Reset all properties.
+     *
+     * @return static
+     */
+    public function reset();
 }

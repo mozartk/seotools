@@ -841,4 +841,28 @@ class OpenGraph implements OpenGraphContract
     {
         return $this->addProperty('site_name', $name);
     }
+
+    public function reset()
+    {
+        $this->og_prefix = 'og:';
+        $this->config;
+        $this->url = '';
+        $this->properties = [];
+        $this->articleProperties = [];
+        $this->profileProperties = [];
+        $this->musicSongProperties = [];
+        $this->musicAlbumProperties = [];
+        $this->musicPlaylistProperties = [];
+        $this->musicRadioStationProperties = [];
+        $this->videoMovieProperties = [];
+        $this->videoEpisodeProperties = [];
+        $this->videoTVShowProperties = [];
+        $this->videoOtherProperties = [];
+        $this->bookProperties = [];
+        $this->videoProperties = [];
+        $this->audioProperties = [];
+        $this->placeProperties = [];
+        $this->productProperties = [];
+        $this->images = [];
+    }
 }

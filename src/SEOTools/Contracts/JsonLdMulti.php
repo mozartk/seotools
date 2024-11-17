@@ -147,4 +147,11 @@ interface JsonLdMulti
      * @return static
      */
     public function setImages($images);
+
+    /**
+     * Reset the JsonLd group
+     *
+     * @return static
+     */
+    public function reset();
 }

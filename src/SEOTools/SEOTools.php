@@ -13,7 +13,7 @@ use Illuminate\Support\Traits\Macroable;
 class SEOTools implements SEOContract
 {
     use Macroable;
-    
+
     /**
      * {@inheritdoc}
      */
@@ -136,5 +136,14 @@ class SEOTools implements SEOContract
         $html .= $this->jsonLdMulti()->generate();
 
         return ($minify) ? str_replace(PHP_EOL, '', $html) : $html;
+    }
+
+    public function resetAll()
+    {
+        $this->metatags()->reset();
+        $this->opengraph()->reset();
+        $this->twitter()->reset();
+        $this->jsonLd()->reset();
+        $this->jsonLdMulti()->reset();
     }
 }

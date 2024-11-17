@@ -195,4 +195,12 @@ class TwitterCards implements TwitterCardsContract
     {
         return $this->addValue('image', $image);
     }
+
+    public function reset()
+    {
+        $this->prefix = 'twitter:';
+        $this->html = [];
+        $this->values = [];
+        $this->images = [];
+    }
 }

@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setUrl(string|null|bool $url)
  * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti addImage(array|string $image)
  * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setImages(string|array $images)
+ * @method static void reset()
  */
 class JsonLdMulti extends Facade
 {

@@ -151,4 +151,11 @@ interface SEOTools
      * @return string
      */
     public function generate($minify = false);
+
+    /**
+     * Reset all seo providers.
+     *
+     * @return static
+     */
+    public function resetAll();
 }

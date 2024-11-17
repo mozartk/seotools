@@ -119,4 +119,11 @@ interface TwitterCards
      * @return static
      */
     public function setImage($image);
+
+    /**
+     * Reset all properties.
+     *
+     * @return static
+     */
+    public function reset();
 }

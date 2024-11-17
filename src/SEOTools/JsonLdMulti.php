@@ -183,4 +183,16 @@ class JsonLdMulti implements JsonLdMultiContract
 
         return $this;
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function reset()
+    {
+        $this->index = 0;
+        $this->list = [];
+        $this->defaultJsonLdData = [];
+
+        return $this;
+    }
 }

@@ -32,6 +32,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Artesaos\SEOTools\Contracts\OpenGraph setBook(array $attributes = [])
  * @method static \Artesaos\SEOTools\Contracts\OpenGraph addVideo(string|null $source = null, array $attributes = [])
  * @method static \Artesaos\SEOTools\Contracts\OpenGraph addAudio(string|null $source = null, array $attributes = [])
+ * @method static void reset()
  */
 class OpenGraph extends Facade
 {

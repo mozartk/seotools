@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Artesaos\SEOTools\Contracts\JsonLd setUrl(string|null|bool $url)
  * @method static \Artesaos\SEOTools\Contracts\JsonLd addImage(string|array $image)
  * @method static \Artesaos\SEOTools\Contracts\JsonLd setImages(string|array $images)
+ * @method static void reset()
  */
 class JsonLd extends Facade
 {

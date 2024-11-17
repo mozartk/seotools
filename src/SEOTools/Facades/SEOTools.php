@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Artesaos\SEOTools\Contracts\SEOTools setCanonical(string $url)
  * @method static \Artesaos\SEOTools\Contracts\SEOTools addImages(array|string $urls)
  * @method static string getTitle(bool $session = false)
+ * @method static void resetAll()
  */
 class SEOTools extends Facade
 {

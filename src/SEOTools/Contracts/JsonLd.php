@@ -132,4 +132,11 @@ interface JsonLd
      * @return static
      */
     public function setImages($images);
+
+    /**
+     * @param string $date
+     *
+     * @return static
+     */
+    public function reset();
 }
